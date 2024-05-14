@@ -1,0 +1,35 @@
+.calculator {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#display {
+    width: 98%;
+    height: 40px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.buttons button {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.buttons button:nth-child(4n) {
+    background-color: #f0ad4e;
+}
+
+.buttons button:last-child {
+    background-color: #5cb85c;
+}
+
+.buttons button:last-child:hover {
+    background-color: #4cae4c;
+}
+.calculator{
+    margin-top: 200px;
+}
